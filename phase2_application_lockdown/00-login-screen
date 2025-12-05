@@ -1,0 +1,7 @@
+[org/gnome/login-screen]
+# This file is stored at /etc/dconf/db/gdm.d 
+# Allow password authentication
+enable-password-authentication=true
+
+# Show user list so GDM can autoselect examuser
+disable-user-list=false

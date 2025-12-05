@@ -15,6 +15,7 @@ other network traffic and applications — simulating a proctored testing enviro
 2. Inspect `phase2_application_lockdown/` for the kiosk `systemd` units and watchdog script.
 3. Review `scripts/enable_exam_mode.sh` and `scripts/disable_exam_mode.sh` for deployment & rollback.
 4. Read `docs` for more info.
+5. Also see the google doc attached in the form for detailed info about the project.
 
 ### Important notes
 - Designed for **Ubuntu 24.04 (Noble)** but concepts are portable to other Linux distros.

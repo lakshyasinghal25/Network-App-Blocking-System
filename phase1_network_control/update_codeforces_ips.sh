@@ -1,4 +1,8 @@
 #!/bin/bash
+#This file is supposed to be run at regular intervals as CDN may change IP
+#addresses of codeforces resources regularly
+
+nft -f /etc/nftables.conf.exam
 
 DOMAIN="codeforces.com"
 TMP_FILE="/tmp/cf_ips.nft"
