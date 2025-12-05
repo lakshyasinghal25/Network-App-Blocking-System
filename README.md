@@ -14,9 +14,8 @@ other network traffic and applications — simulating a proctored testing enviro
 1. Inspect `phase1_network_control/nftables.conf` to review network rules.
 2. Inspect `phase2_application_lockdown/` for the kiosk `systemd` units and watchdog script.
 3. Review `scripts/enable_exam_mode.sh` and `scripts/disable_exam_mode.sh` for deployment & rollback.
-4. Read `docs/test_plan.md` for how the system was validated (Xephyr tests + live boots).
+4. Read `docs` for more info.
 
-## Important notes
+### Important notes
 - Designed for **Ubuntu 24.04 (Noble)** but concepts are portable to other Linux distros.
-- **Do not** run these scripts or units on your primary machine without a VM snapshot — they change GDM, networking, and process policies.
-- The repository contains explanatory notes and a test plan for reproducibility.
+- This repository is still not fully functional and few errors remain after implementation of phase-2 which couldn't be resolved before deadline(5th December) due to time constraints.
