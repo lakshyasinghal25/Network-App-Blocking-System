@@ -1,0 +1,15 @@
+[Unit]
+Description=Exam Kiosk Mode (autostart)
+After=graphical.target
+Wants=graphical.target
+
+[Service]
+User=examuser
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/examuser/.Xauthority
+ExecStart=/usr/bin/chromium --kiosk --incognito --disable-infobars --no-default-browser-check https://codeforces.com
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=graphical.target

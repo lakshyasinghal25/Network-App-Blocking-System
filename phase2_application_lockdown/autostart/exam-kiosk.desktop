@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Exam Kiosk
+Exec=/usr/bin/chromium --kiosk --incognito --disable-infobars --no-default-browser-check https://codeforces.com
+X-GNOME-Autostart-enabled=true
+Terminal=false

@@ -1,0 +1,10 @@
+[Unit]
+Description=Exam Process Watchdog
+After=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/exam-watchdog.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
