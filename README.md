@@ -19,4 +19,4 @@ other network traffic and applications — simulating a proctored testing enviro
 
 ### Important notes
 - Designed for **Ubuntu 24.04 (Noble)** but concepts are portable to other Linux distros.
-- This repository is still not fully functional and few errors remain after implementation of phase-2 which couldn't be resolved before deadline(5th December) due to time constraints.
+- This repository is still not fully functional and **few errors remain** after implementation of phase-2 which couldn't be resolved before deadline(5th December) due to time constraints.
